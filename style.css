@@ -1,0 +1,246 @@
+/* 1.4.3 (AA) WCAG, tillräcklig kontrast mellan färg och bakgrund. */
+
+
+.text-color{
+    color: rgb(141, 136, 122, 1);
+}
+/* navbar */
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(70, 41, 41, 1);
+    position:relative;
+    
+}
+.nav-header{
+    display: inline;
+}
+.nav > .nav-header >.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Hurricane', cursive;
+    color: rgb(230, 226, 226);
+    padding: 10px 10px 10px 50px;
+}
+.nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 17px;
+    font-family: 'Mate SC', serif;
+}
+.nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 13px 13px 13px;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+ 
+
+body{
+    background: #000000;
+    ;
+}
+.container {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+width: 400px;
+text-align: center;
+font-family: 'Mate SC', serif;
+align-items: center;
+margin: auto;
+letter-spacing: 2px;
+margin-top: 50px;
+}
+/*content*/
+.container-card {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Mate SC', serif;
+}
+.card {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(224, 218, 201, 1);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    overflow: hidden;
+    display: flex;
+}
+.image {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    background-size: cover;
+}
+
+.content {
+    padding: 0 10px 10px;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    display: flex;
+    flex-direction: column;
+}
+.content h3 {
+    text-align: center;
+    font-family: 'Mate SC', serif;
+}
+.btn {
+    background-color: rgb(255, 255, 255, 1);
+    border: 2px solid rgb(255, 255, 255, 1);
+    border-radius: 10px;
+    color: black;
+    padding: 10px 23px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+}
+
+#hem {
+    margin-top: 40px;
+}
+#om-mig {
+    margin-top: 20px;
+}
+#button {
+    margin-top: 10px;
+}
+#ommig {
+    margin-top: 100px;
+}
+#img {
+ margin-top: 40px;
+ margin-bottom: 50px;
+ background-size: cover;  
+ background-repeat: no-repeat; 
+ height: 550px;
+ border-radius: 25px;
+}
+#projekt-h2 {
+    margin-bottom: 20px;
+}
+#projekt {
+    margin: 10px;
+    padding: 10px;
+}
+#button-a {
+    color: #080808;
+}
+#button-a a:hover {
+    color: #080808;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+
+  
+  .input_form {
+    width: 330px;
+    height: 260px;
+    background: white;
+    position bottom:;
+    top: calc(50% - 150px);
+    left: calc(50% - 250px);
+    border: 1px solid rgb (141, 136, 122, 1);
+    
+    
+  }
+  .name {
+    height: 20px;
+    width: 250px;
+    margin: 25px 15px 5px 35px;
+  }
+  
+
+ {
+    margin: 25px 15px 5px 35px;
+  }
+  .text_class {
+    resize: none;
+    height: 50px;
+    width: 250px;
+    margin: 25px 15px 5px 35px;
+  }
+  
+  .sub_btn {
+    background-color: rgb(141, 136, 122, 1);
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    display: block;
+    position: relative;
+    left: 230px;
+    border-radius: 6px;
+  }
+  input[type="radio"] {
+    margin-left: 130px;
+    display: inline-block;
+  }
+
+
+  
+  .closebtn {
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+    float: right;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+/* Responsiv design, 
+ta ner korten under varandra istället för bredvid */
+
+  @media only screen and (max-width: 600px)
+ {
+
+    .container-card {
+        display: flex;
+        flex-direction: column;
+       max-width: 100px;
+        margin: 20px;
+       
+         }
+
+         .nav > .nav-header >.nav-title {
+            display: inline-block;
+            font-size: 22px;
+            font-family: 'Hurricane', cursive;
+            color: rgb(230, 226, 226);
+            padding: 10px 10px 10px 50px;
+
+          }
+
+
+
+            .text-color{
+                color: rgb(141, 136, 122, 1);
+                display: flex;
+                align-items: center;
+                margin: 5px;
+                font-size: 20px;
+                text-align: center;
+                max-width: 80%;
+          }
+
+        #om-mig > #rubrikommig{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+          }
+
+
+
+
+
+
+
